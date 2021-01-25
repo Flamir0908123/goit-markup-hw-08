@@ -1,0 +1,210 @@
+.icon_footer {
+  font-family: $font-releway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: $color-primary;
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+.footer {
+  background: $color-backgraund;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  min-width: 480px;
+  margin: auto;
+}
+
+.titel_footer {
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  color: $color-primary;
+}
+.social_footer {
+  justify-content: flex-start;
+  width: 206px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 12px;
+}
+.footer_container {
+  align-items: baseline;
+}
+.footer_svg {
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  fill: $color-primary;
+  background: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+.footer_svg:hover,
+.footer_svg:focus {
+  background: $color-accent;
+}
+.footer_item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer_svg {
+  display: flex;
+}
+.footer_list {
+  display: flex;
+  justify-content: center;
+}
+
+.text_button_footer {
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: $color-primary;
+}
+.social_footer_telega {
+  position: absolute;
+  right: 28px;
+  bottom: 13px;
+  width: 24px;
+  height: 24px;
+}
+.modal_form_btn_footer {
+  position: relative;
+  margin-right: 12px;
+}
+.text_footer_input_labe {
+  display: flex;
+  justify-content: center;
+}
+.text_footer_input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background: $color-backgraund;
+  border-radius: 4px;
+  width: 450px;
+  padding-left: 16px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.text_footer_input {
+  color: $color-secondary;
+}
+
+.contact_list:not(:last-child) {
+  margin-bottom: 8px;
+}
+.contact_list {
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.contact_list:last-child {
+  margin-bottom: 60px;
+}
+
+.color_footer_white {
+  color: $color-primary;
+}
+.color_footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.text_footer_modal {
+  font-family: $font-roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 60px;
+  color: $color-primary;
+}
+.modal_form_btn_footer {
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+  border: none;
+  height: 50px;
+  display: flex;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2196f3;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .footer_box_text {
+    display: block;
+    width: 232px;
+    margin-left: 61px;
+    margin-right: 165px;
+  }
+  .titel_footer_list {
+    width: 206px;
+    margin-left: auto;
+    margin-right: 89px;
+  }
+  .footer_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box_form_footer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .text_footer_modal {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer_box_text {
+    display: block;
+    width: 232px;
+    margin-left: 61px;
+    margin-right: 70px;
+  }
+  .footer_container {
+    width: 1200px;
+  }
+  .contact_list {
+    text-align: left;
+  }
+  .icon_footer {
+    text-align: left;
+  }
+}
